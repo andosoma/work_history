@@ -8,7 +8,7 @@
     "ja-hiragana-hojodoushi": true,
     "ja-nakaguro-or-halfwidth-space-between-katakana": true,
     "ja-no-abusage": true,
-    "ja-no-mixed-period": true,
+    "ja-no-mixed-period": false,
     "ja-no-redundant-expression": true,
     "ja-no-space-around-parentheses": true,
     "ja-no-space-between-full-width": true,
@@ -22,17 +22,9 @@
       "before": true,
       "after": true
     },
-    "ja-space-between-half-and-full-width": {
-      "space": "always",
-      "lintStyledNode": true
-    },
     "ja-unnatural-alphabet": true,
     "max-comma": {
       "max" : 4
-    },
-    "max-kanji-continuous-len": {
-      "max": 6,
-      "allow": ["普通自動車第一種運転免許"]
     },
     "max-ten": true,
     "no-doubled-conjunction": true,
