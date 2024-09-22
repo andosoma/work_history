@@ -1,0 +1,11 @@
+{
+  "name": "work_history",
+  "version": "1.0.0",
+  "description": "職務経歴書用リポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
