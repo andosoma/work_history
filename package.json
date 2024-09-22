@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "textlint . && markdownlint **/*.md"
+    "lint": "textlint . && markdownlint **/*.md",
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
   "author": "",
   "license": "ISC",
